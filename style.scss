@@ -1,0 +1,191 @@
+html {
+
+    background-color: #fff;
+
+    body {
+
+        header {
+
+            background-image: url(./images/header.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            /*** IMPORTANT*****/
+
+            nav {}
+
+            #art-the {
+
+                position: absolute;
+                top: 30%;
+                color: #fff
+            }
+
+            .col h1 {
+
+                font-size: 300%;
+            }
+
+            .col h1 span {
+
+                font-weight: 700;
+            }
+
+            .bouton {
+
+                border-radius: 20px;
+                text-decoration: none;
+                padding: 10px;
+                border: solid 1px white;
+
+            }
+
+            .btn-produits {
+
+                background-color: azure;
+                color: chartreuse;
+
+            }
+
+            .btn-contact {
+
+                color: white;
+
+            }
+
+        }
+
+        #nosproduits {
+
+            height: 100vh;
+
+            .container .image-tea {
+
+                max-width: 100%;
+                height: auto;
+            }
+
+            .container h2 {
+
+                text-align: center;
+                margin-top: 50px;
+
+            }
+
+            .container h2:after {
+
+                display: block;
+                height: 2px;
+                background-color: green;
+                width: 100px;
+                content: " ";
+                margin: 0 auto;
+                margin-top: 10px;
+            }
+
+        }
+
+        #famille-the {
+
+            background-color: darkseagreen;
+            height: 100vh;
+            width:100vw;
+
+            .container h2 {
+
+                text-align: center;
+                margin-top: 50px;
+            }
+
+            .container h2:after {
+
+                display: block;
+                height: 2px;
+                background-color: green;
+                width: 100px;
+                content: " ";
+                margin: 0 auto;
+                margin-top: 10px;
+            }
+
+            .detail-tasse {
+
+                background-color: #fff;
+                border-radius: 15px;
+                text-align: center;
+                padding: 30px;
+
+                .image-tasse {
+
+                    width: 80%;
+
+                }
+
+            }
+
+        }
+
+        #galerie-photos {
+
+            background-color: white;
+            height:80vh;
+
+            .container h2{
+
+                text-align: center;
+
+            }
+
+            .container h2:after {
+
+                display: block;
+                height: 2px;
+                background-color: green;
+                width: 100px;
+                content: " ";
+                margin: 0 auto;
+                margin-top: 10px;
+            }
+  
+        }
+
+        #ils-ont-adores{
+
+            background-image: url(./images/the-paysage.jpg);
+            
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            height:80vh;
+
+            .bi-quote{
+
+                    font-size: 200%;
+            }
+
+            p{
+
+                font-weight: 400;
+            }
+  
+
+        }
+
+        #packs{
+
+            background-color: white;
+            height: 100vh;
+            
+
+
+
+
+        }
+
+
+    }
+
+
+
+
+}
